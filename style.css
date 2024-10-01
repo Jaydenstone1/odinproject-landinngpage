@@ -1,17 +1,158 @@
-.header {
+body {
+  font-family: sans-serif, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header , .container-one {
   background-color: #1F2937;
 }
 
 .logo {
   color: #F9FAF8;
-  font-size: 48px;
+  font-size: 24px;
 }
 
-.headerlink {
+.headerlink, .secondarytext {
   color: #E5E7EB;
   font-size: 18px;
+  font-weight: 100;
+}
+
+.maintext {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+
+.secondarytext {
+  padding-bottom: 5px;
 }
 
 li {
   list-style-type: none;
+}
+
+.button-one, .button-two {
+  background-color: #3882F6;
+  border-radius: 4px;
+  color: #F9FAF8;
+  padding: 4px 20px
+}
+
+.button-one {
+  border: none;
+}
+
+.button-two{
+  border: 2px solid #F9FAF8;
+}
+
+.infoheader {
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  
+}
+
+.quoteauthor {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
+.footertext {
+  color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 216px 0px 216px;
+}
+
+.headerlink {
+  display: flex;
+  padding: 0px;
+  margin: 0px; 
+  gap: 20px;
+}
+
+.container-one {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 216px;
+  gap: 10px;
+}
+
+.one-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.one-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 60%;
+  margin: 0 auto;
+  gap: 112px;
+}
+
+.boxdesign {
+  width: 122px;
+  height: 122px;
+  border: 4px solid #4381e3;
+  background:none;
+  border-radius: 12px;
+}
+
+.boxandtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 130px;
+}
+
+.caption {
+ 
+}
+.container-three {
+  background-color: #E5E7EB;
+
+}
+
+
+.container-four {
+  background-color: #3882F6;
 }
